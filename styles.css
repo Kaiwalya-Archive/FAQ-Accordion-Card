@@ -32,9 +32,10 @@ body{
     margin: 140px 0px 0px -15px;
 }
 .bg-image{
-    max-width: 2vw;
-    max-height: 2vh;
+    width: 2vw;
+    height: 2vh;
     position: absolute;
+    margin: -10px 80px 80px -180px;
     left: 0px;
     top: 0px;
 }
@@ -43,7 +44,7 @@ body{
     display: flex;
     position: relative;
     flex-direction: column;
-    margin: -10px 0px 0px -80px;
+    margin: -10px 80px 0px -80px;
 }
 
 .faq-sec{
