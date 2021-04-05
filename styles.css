@@ -1,10 +1,71 @@
 html{
-    min-height: 100%;
+    min-height: 100vh;
+    min-width: 40vw;
 }
 body{
     display: flex;
     flex-direction: column;
     background : linear-gradient(to top, hsl(240, 73%, 65%) , hsl(273, 75%, 66%));
     background-repeat: no-repeat;
+    font-family: 'Kumbh Sans',sans-serif;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
 }
 
+.container{
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+
+}
+
+.bg-image{
+    max-width: 2vw;
+    max-height: 2vh;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: -10px 0px 0px -80px;
+}
+
+.faq-sec{
+    font-size: 18px;
+}
+
+.faq-head{
+    font-size:28px;
+    font-weight: 700;
+}
+
+.q-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button{
+    max-height: 2vh;
+    max-width: 2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.question{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr{
+    border-top: 1px solid hsl(240, 5%, 91%);
+}
