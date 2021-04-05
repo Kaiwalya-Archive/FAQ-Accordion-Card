@@ -19,13 +19,18 @@ body{
     display: flex;
     flex-direction: row;
     background-color: #ffff;
-    margin-top: 10%;
+    margin-top: 8%;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-right: 5%;
-
+    border-radius: 20px;
 }
-
+.box{
+    display: flex;
+    position:fixed;
+    margin-top: 10%;
+    margin: 140px 0px 0px -15px;
+}
 .bg-image{
     max-width: 2vw;
     max-height: 2vh;
@@ -54,6 +59,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-weight: 300;
 }
 .button{
     max-height: 2vh;
