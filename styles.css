@@ -32,10 +32,10 @@ body{
     margin: 140px 0px 0px -15px;
 }
 .bg-image{
-    width: 2vw;
-    height: 2vh;
+    width: 10%;
+    height: 10%;
     position: absolute;
-    margin: -10px 80px 80px -180px;
+    margin: -350px 100px 100px -500px;
     left: 0px;
     top: 0px;
 }
