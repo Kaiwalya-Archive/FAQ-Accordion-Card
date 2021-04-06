@@ -83,4 +83,5 @@ a:link{
 }
 a:hover{
     color: #F47B56;
+    transition: 0.2s;
 }
