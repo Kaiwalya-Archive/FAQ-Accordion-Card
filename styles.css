@@ -69,6 +69,10 @@ body{
     margin-bottom: 10px;
     margin-left: 50px;
 }
+.button:active{  
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
 .question{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -84,4 +88,8 @@ a:link{
 a:hover{
     color: #F47B56;
     transition: 0.2s;
+}
+
+.answer{
+    display:none;
 }
